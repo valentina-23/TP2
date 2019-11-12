@@ -33,10 +33,10 @@ print(F)
 
 #Sumando los elementos de las columnas y llenando una lista C:
 C = []
-for j in range(m):
+for a in range(m):
     Suma = 0
-    for i in range(n):
-        Suma = Suma + Matriz[i][j]
+    for b in range(n):
+        Suma = Suma + Matriz[a][b]
     C.append(Suma)
 print(C)
 
